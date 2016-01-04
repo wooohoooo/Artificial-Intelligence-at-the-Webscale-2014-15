@@ -25,8 +25,6 @@ for feet,rooms,price in house_attributes:
 	house = {"feet" : feet,
 	"rooms" : rooms,
 	"price" : price}
-	#"tags" : ["mongodb","python","pymongo"],
-	#"date": datetime.datetime.utcnow()}
 	house_id = houses.insert(house)
 
 
